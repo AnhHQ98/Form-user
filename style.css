@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+}
+/* form */
+h4{
+    background: #27a844;;
+    color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+form{
+    border: 1px solid #dedde2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+form label{
+    text-transform: capitalize;
+    margin: 0 15px;
+}
+form input{
+    padding: 7px;
+    margin: 12px 15px;
+    display: block;
+    width: 97%;
+}
+form button{
+    text-transform: capitalize;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form .bt-left{
+    background: #22af47;
+    color: #fff;
+    margin:0 0 40px 15px;
+}
+form .bt-right{
+    background: #f9c500 ;
+}
+/* table */
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    text-transform: capitalize;
+    background: #27a844;
+}
+th, td{
+    border: 1px solid #dcdcdc;
+    text-align: left;
+    padding: 7px;
+}
+table button{
+    text-transform: capitalize;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+table .bt-edit{
+    background: #ffc916;
+}
+table .bt-del{
+    background: #e93d4d;
+}
