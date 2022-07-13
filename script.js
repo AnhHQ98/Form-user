@@ -35,3 +35,13 @@ const onSubmit = (e) => {
 }
 
 form.addEventListener("submit", onSubmit);
+
+// api
+var userApi = 'http://localhost:3000/User'
+fetch(userApi)
+    .then(function(response){
+        return response.json();
+    })
+    .then(function(user){
+        console.log(user);
+    })
