@@ -1,9 +1,25 @@
 {
-    "User": [
-        {
-            "id": 1,
-            "fullname": "Ha Quang Anh",
-            "email": "haquanganh12a1@gmail.com"
-        }
-    ]
+  "User": [
+    {
+      "username": "anhhq14",
+      "fullname": "Tran Trung Tien",
+      "email": "tien@gmai.com",
+      "birthday": "2022-06-27",
+      "id": 4
+    },
+    {
+      "username": "sonnv",
+      "fullname": "Nguyen Van Son",
+      "email": "son@gmail.com",
+      "birthday": "2022-05-09",
+      "id": 5
+    },
+    {
+      "username": "quytn",
+      "fullname": "Tran Ngoc Quy",
+      "email": "aquy@gmail.com",
+      "birthday": "2021-01-13",
+      "id": 6
+    }
+  ]
 }
